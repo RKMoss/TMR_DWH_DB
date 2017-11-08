@@ -1,0 +1,16 @@
+﻿CREATE TABLE [build].[tbl_ControlValues](
+	[PK_tblControlValuesID] [int] IDENTITY(1,1) NOT NULL,
+	[ControlValue_Name] [nvarchar](255) NOT NULL,
+	[ControlValue_Value] [nvarchar](500) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[PK_tblControlValuesID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+ CONSTRAINT [UNQ_ControlValues_NameValue] UNIQUE NONCLUSTERED 
+(
+	[ControlValue_Name] ASC,
+	[ControlValue_Value] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO

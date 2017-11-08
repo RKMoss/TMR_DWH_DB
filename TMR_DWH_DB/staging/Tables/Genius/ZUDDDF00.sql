@@ -1,0 +1,27 @@
+﻿CREATE TABLE [staging].[ZUDDDF00] (
+    [DDMANU]  NVARCHAR (6)    NULL,
+    [DDMASE]  NVARCHAR (3)    NULL,
+    [DDDGSQ]  NVARCHAR (3)    NULL,
+    [DDDGVS]  NVARCHAR (3)    NULL,
+    [DDDDSQ]  DECIMAL (3)     NULL,
+    [DDDENG]  DECIMAL (9)     NULL,
+    [DDDDCD]  NVARCHAR (6)    NULL,
+    [DDDECU]  NVARCHAR (3)    NULL,
+    [DDCLSQ]  DECIMAL (3)     NULL,
+    [DDDDPC]  DECIMAL (11, 7) NULL,
+    [DDDDAS]  DECIMAL (15, 2) NULL,
+    [DDDDMX]  DECIMAL (11, 7) NULL,
+    [DDDDND]  DECIMAL (11, 7) NULL,
+    [DDDDM$]  DECIMAL (15, 2) NULL,
+    [DDDDN$]  DECIMAL (15, 2) NULL,
+    [DDDDNT]  NVARCHAR (1)    NULL,
+    [DDKUF1]  NVARCHAR (1)    NULL,
+    [DDGRFG]  NVARCHAR (1)    NULL,
+    [DDDDEP]  NVARCHAR (1)    NULL,
+    [DDDDF1]  NVARCHAR (1)    NULL,
+    [DDDDF2]  NVARCHAR (1)    NULL,
+    [DDDDF3]  NVARCHAR (1)    NULL,
+    [DDDDF4]  NVARCHAR (1)    NULL,
+    [BuildID] INT             NULL
+);
+

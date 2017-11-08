@@ -1,0 +1,24 @@
+﻿CREATE TABLE [staging].[ZUIFDF00] (
+    [rid]    INT             IDENTITY (1, 1) NOT NULL,
+    [IFMANU] NVARCHAR (6)    NULL,
+    [IFMASE] NVARCHAR (3)    NULL,
+    [IFIESG] NUMERIC (5)     NULL,
+    [IFIFNM] NUMERIC (5)     NULL,
+    [IFDUDT] NUMERIC (7)     NULL,
+    [IFIFFD] NUMERIC (7)     NULL,
+    [IFIFTD] NUMERIC (7)     NULL,
+    [IFIFSP] NUMERIC (11, 7) NULL,
+    [IFIFF1] NVARCHAR (1)    NULL,
+    [IFIFF2] NVARCHAR (1)    NULL,
+    [IFIFF3] NVARCHAR (1)    NULL,
+    [IFIFF4] NVARCHAR (1)    NULL,
+    [IFIFF5] NVARCHAR (1)    NULL,
+    [IFIFF6] NVARCHAR (1)    NULL,
+    [IFCTDD] NUMERIC (7)     NULL,
+    [IFIDS1] NUMERIC (7)     NULL,
+    [IFIDS2] NUMERIC (7)     NULL,
+    [IFIDS3] NUMERIC (7)     NULL,
+    [BuilID] INT             NULL,
+    PRIMARY KEY CLUSTERED ([rid] ASC)
+);
+

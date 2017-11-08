@@ -1,0 +1,12 @@
+﻿CREATE TABLE [staging].[ZUDGDF00] (
+    [DGMANU]  NVARCHAR (6)  NULL,
+    [DGMASE]  NVARCHAR (3)  NULL,
+    [DGDGSQ]  NVARCHAR (3)  NULL,
+    [DGDGNG]  NUMERIC (9)   NULL,
+    [DGDGNM]  NVARCHAR (15) NULL,
+    [DGPRCO]  NVARCHAR (6)  NULL,
+    [DGKPSQ]  NVARCHAR (3)  NULL,
+    [DGKKGC]  NVARCHAR (3)  NULL,
+    [BuildID] INT           NULL
+);
+

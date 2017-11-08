@@ -1,0 +1,9 @@
+﻿CREATE TABLE [staging].[ZNNADF00] (
+    [NANACD]  NVARCHAR (8)  NULL,
+    [NANRGU]  DECIMAL (9)   NULL,
+    [NARCID]  NVARCHAR (2)  NULL,
+    [NANANM]  NVARCHAR (25) NULL,
+    [NANAFG]  NVARCHAR (1)  NULL,
+    [BuildID] INT           NULL
+);
+

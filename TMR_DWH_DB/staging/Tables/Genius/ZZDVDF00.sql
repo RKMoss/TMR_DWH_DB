@@ -1,0 +1,20 @@
+﻿CREATE TABLE [staging].[ZZDVDF00] (
+    [DVGQCD]  NVARCHAR (10)   NULL,
+    [DVCNCK]  NVARCHAR (8)    NULL,
+    [DVBNCK]  NVARCHAR (8)    NULL,
+    [DVGUCD]  NVARCHAR (10)   NULL,
+    [DVGVCD]  NVARCHAR (10)   NULL,
+    [DVGWCD]  NVARCHAR (10)   NULL,
+    [DVHATX]  NVARCHAR (78)   NULL,
+    [DVECNB]  NUMERIC (29, 9) NULL,
+    [DVITST]  NVARCHAR (1)    NULL,
+    [DVIUST]  NVARCHAR (1)    NULL,
+    [DVIVST]  NVARCHAR (1)    NULL,
+    [DVIWST]  NVARCHAR (1)    NULL,
+    [DVIXST]  NVARCHAR (1)    NULL,
+    [DVDAUD]  NUMERIC (7)     NULL,
+    [DVDAUT]  NUMERIC (6)     NULL,
+    [DVDAUU]  NVARCHAR (10)   NULL,
+    [BuildID] INT             NULL
+);
+

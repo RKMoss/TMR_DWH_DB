@@ -1,0 +1,28 @@
+﻿CREATE TABLE [staging].[ZKS1DF00] (
+    [rid]     INT             IDENTITY (1, 1) NOT NULL,
+    [S1FANO]  NUMERIC (9)     NULL,
+    [S1S1SQ]  NUMERIC (3)     NULL,
+    [S1S1FR]  NVARCHAR (1)    NULL,
+    [S1USER]  NVARCHAR (10)   NULL,
+    [S1JOBN]  NVARCHAR (10)   NULL,
+    [S1WDJM]  NUMERIC (6)     NULL,
+    [S1DJD1]  NUMERIC (7)     NULL,
+    [S1DJQ1]  NUMERIC (4)     NULL,
+    [S1FAV1]  NVARCHAR (1)    NULL,
+    [S1FAV2]  NVARCHAR (1)    NULL,
+    [S1FAV3]  NVARCHAR (1)    NULL,
+    [S1FAV4]  NVARCHAR (1)    NULL,
+    [S1FAV5]  NVARCHAR (1)    NULL,
+    [S1FAV6]  NVARCHAR (1)    NULL,
+    [S1FA1L]  NVARCHAR (3)    NULL,
+    [S1FA2L]  NVARCHAR (3)    NULL,
+    [S1FA3L]  NVARCHAR (3)    NULL,
+    [S1FA4L]  NVARCHAR (3)    NULL,
+    [S1FADE]  NUMERIC (7)     NULL,
+    [S1TOBS]  NUMERIC (15, 2) NULL,
+    [S1LITP]  NVARCHAR (1)    NULL,
+    [S1SUBP]  NVARCHAR (1)    NULL,
+    [BuildID] INT             NULL,
+    PRIMARY KEY CLUSTERED ([rid] ASC)
+);
+

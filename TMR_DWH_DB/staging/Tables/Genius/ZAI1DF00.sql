@@ -1,0 +1,12 @@
+﻿CREATE TABLE [staging].[ZAI1DF00] (
+    [rid]     INT          IDENTITY (1, 1) NOT NULL,
+    [I1TRRF]  NVARCHAR (3) NULL,
+    [I1DA01]  NVARCHAR (1) NULL,
+    [I1DA02]  NVARCHAR (1) NULL,
+    [I1DA03]  NVARCHAR (1) NULL,
+    [I1DA04]  NVARCHAR (1) NULL,
+    [IATRCD]  NUMERIC (2)  NULL,
+    [BuildID] INT          NULL,
+    PRIMARY KEY CLUSTERED ([rid] ASC)
+);
+

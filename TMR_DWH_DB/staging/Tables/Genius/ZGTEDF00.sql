@@ -1,0 +1,24 @@
+﻿CREATE TABLE [staging].[ZGTEDF00] (
+    [rid]     INT             IDENTITY (1, 1) NOT NULL,
+    [TEABCD]  NVARCHAR (6)    NULL,
+    [TEABNB]  NUMERIC (3)     NULL,
+    [TEAITX]  NVARCHAR (8)    NULL,
+    [TERFVN]  NUMERIC (21, 8) NULL,
+    [TEAJTX]  NVARCHAR (8)    NULL,
+    [TERTVN]  NUMERIC (21, 8) NULL,
+    [TEAKTX]  NVARCHAR (8)    NULL,
+    [TECFVN]  NUMERIC (21, 8) NULL,
+    [TEALTX]  NVARCHAR (8)    NULL,
+    [TECTVN]  NUMERIC (21, 8) NULL,
+    [TEAMTX]  NVARCHAR (8)    NULL,
+    [TELUVN]  NUMERIC (21, 8) NULL,
+    [TEADCD]  NVARCHAR (4)    NULL,
+    [TENRGU]  NUMERIC (9)     NULL,
+    [TEE4ST]  NVARCHAR (1)    NULL,
+    [TEE5ST]  NVARCHAR (1)    NULL,
+    [TEE6ST]  NVARCHAR (1)    NULL,
+    [TEE7ST]  NVARCHAR (1)    NULL,
+    [BuildID] INT             NULL,
+    PRIMARY KEY CLUSTERED ([rid] ASC)
+);
+

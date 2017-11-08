@@ -1,0 +1,14 @@
+﻿CREATE TABLE [staging].[ZACJDF00] (
+    [CJCNCD]  NVARCHAR (8)    NOT NULL,
+    [CJD5E9]  NVARCHAR (10)   NOT NULL,
+    [CJCUCD]  NVARCHAR (3)    NOT NULL,
+    [CJD5FF]  DECIMAL (15, 8) NULL,
+    [CJD5GB]  NVARCHAR (3)    NULL,
+    [CJD5FG]  NVARCHAR (1)    NULL,
+    [CJD5FH]  NVARCHAR (1)    NULL,
+    [CJD5FI]  NVARCHAR (1)    NULL,
+    [CJD5FJ]  NVARCHAR (1)    NULL,
+    [CJD5FK]  DECIMAL (15, 8) NULL,
+    [BuildID] INT             NULL
+);
+

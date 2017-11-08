@@ -1,0 +1,20 @@
+﻿CREATE TABLE [staging].[ZHEGDF00] (
+    [EGESSG]  DECIMAL (7)    NULL,
+    [EGEGSG]  DECIMAL (5)    NULL,
+    [EGESSQ]  DECIMAL (3)    NULL,
+    [EGESAT]  NVARCHAR (1)   NULL,
+    [EGESAM]  NVARCHAR (1)   NULL,
+    [EGEGAP]  DECIMAL (5, 4) NULL,
+    [EGESAP]  NVARCHAR (1)   NULL,
+    [EGESAL]  NVARCHAR (1)   NULL,
+    [EGEGPR]  DECIMAL (5, 4) NULL,
+    [EGEGFC]  NVARCHAR (1)   NULL,
+    [EGEGLU]  NVARCHAR (1)   NULL,
+    [EGEGVL]  DECIMAL (3)    NULL,
+    [EGEGF1]  NVARCHAR (1)   NULL,
+    [EGEGF2]  NVARCHAR (1)   NULL,
+    [EGEGF3]  NVARCHAR (1)   NULL,
+    [EGEGF4]  NVARCHAR (1)   NULL,
+    [BuildID] INT            NULL
+);
+

@@ -1,0 +1,25 @@
+﻿CREATE TABLE [staging].[ZURIDF00] (
+    [RIMANU]  NVARCHAR (6)    NULL,
+    [RIMASE]  NVARCHAR (3)    NULL,
+    [RIRIAQ]  NVARCHAR (3)    NULL,
+    [RIRIGN]  NUMERIC (9)     NULL,
+    [RIRIF1]  NVARCHAR (1)    NULL,
+    [RIRIF2]  NVARCHAR (1)    NULL,
+    [RICLSQ]  NUMERIC (3)     NULL,
+    [RIRKRS]  NVARCHAR (2)    NULL,
+    [RISDSQ]  NVARCHAR (3)    NULL,
+    [RICVSQ]  NVARCHAR (3)    NULL,
+    [RIRIMN]  NVARCHAR (6)    NULL,
+    [RIRIMS]  NVARCHAR (3)    NULL,
+    [RIRISS]  NVARCHAR (2)    NULL,
+    [RIRIEN]  NVARCHAR (3)    NULL,
+    [RIRICP]  NUMERIC (11, 7) NULL,
+    [RIRIDT]  NUMERIC (7)     NULL,
+    [RIRIED]  NUMERIC (7)     NULL,
+    [RIRIMI]  NVARCHAR (1)    NULL,
+    [RIRIFC]  NVARCHAR (1)    NULL,
+    [RIRICQ]  NUMERIC (3)     NULL,
+    [RIRINS]  NVARCHAR (1)    NULL,
+    [BuildID] INT             NULL
+);
+

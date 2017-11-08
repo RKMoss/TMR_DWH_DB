@@ -1,0 +1,23 @@
+﻿CREATE TABLE [staging].[DEDUCTION_ELEMENT](
+	[OBJECT_ID] [char](32) NOT NULL,
+	[PCT] [numeric](10, 6) NULL,
+	[FACTOR] [numeric](10, 6) NULL,
+	[PRO_RATA_AMT] [numeric](22, 2) NULL,
+	[FRK_TYPE] [char](15) NULL,
+	[FSK_TYPE] [int] NULL,
+	[FRK_METHOD] [char](15) NULL,
+	[FSK_METHOD] [int] NULL,
+	[AMT_AMT] [numeric](22, 2) NULL,
+	[FK_AMT_CY] [char](3) NULL,
+	[FK_SLD_SCALE] [char](32) NULL,
+	[FK_CALC_BASE] [char](32) NULL,
+	[FK_DED_COND] [char](32) NULL,
+	[FK_BUS_PARTNER] [char](32) NULL,
+	[DED_COM] [varchar](100) NULL,
+	[BuildID] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[OBJECT_ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+;

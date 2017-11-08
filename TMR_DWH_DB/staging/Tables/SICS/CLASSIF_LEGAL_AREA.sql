@@ -1,0 +1,9 @@
+﻿CREATE TABLE [staging].[CLASSIF_LEGAL_AREA](
+	[LA_TYPE] [char](20) NOT NULL,
+	[LA_NAME] [char](40) NULL,
+	[FK_LEGAL_AREA] [char](32) NOT NULL,
+	[FK_CLASSIFICATION] [char](32) NOT NULL,
+	[SUBCLASS] [char](2) NOT NULL,
+	[BuildID] [int] NULL,
+) ON [PRIMARY]
+;

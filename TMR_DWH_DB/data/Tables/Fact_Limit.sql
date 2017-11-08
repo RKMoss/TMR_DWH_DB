@@ -1,0 +1,26 @@
+﻿CREATE TABLE [data].[Fact_Limit] (
+    [FK_DateID]               INT              NOT NULL,
+    [FK_ContractID]           INT              NOT NULL,
+    [FK_CompanyID]            INT              NOT NULL,
+    [FK_LocationID]           INT              NOT NULL,
+    [FK_CedantLocationID]     INT              NOT NULL,
+    [FK_BrokerID]             INT              NOT NULL,
+    [FK_Reporting_UnitID]     INT              NOT NULL,
+    [FK_LineOfBusinessID]     INT              NOT NULL,
+    [FK_ClassOfBusinessID]    INT              NOT NULL,
+    [FK_CedantID]             INT              NOT NULL,
+    [FK_RITypeID]             INT              NOT NULL,
+    [FK_RIProgramID]          INT              NOT NULL,
+    [FK_CurrencyID]           INT              NOT NULL,
+    [FK_Reporting_CurrencyID] INT              NOT NULL,
+    [LayerLevelLimit]         NVARCHAR (1)     NULL,
+    [SectionLevelLimit]       NVARCHAR (1)     NULL,
+    [Limits]                  DECIMAL (15)     NULL,
+    [LimitsOurShare]          DECIMAL (38, 13) NULL,
+    [AttachmentPoint]         DECIMAL (15)     NULL,
+    [AggregateLimit]          DECIMAL (15)     NULL,
+    [FK_LayerID]              INT              NULL,
+    [PK_FactLimitID]          INT              IDENTITY (1, 1) NOT NULL,
+    PRIMARY KEY CLUSTERED ([PK_FactLimitID] ASC)
+);
+
